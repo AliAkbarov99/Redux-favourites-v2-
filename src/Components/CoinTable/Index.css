@@ -1,0 +1,78 @@
+#table{
+    margin: auto;
+    margin-top: 50px;
+    width: 1182px;
+    height: 788px;
+    border-radius: 7px;
+    padding: 20px 25px;
+    background-color: rgb(207,216,220);
+    box-shadow: rgb(255 255 255) 0px 3px 20px;
+    
+}
+
+.table__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table__header input{
+    border-radius: 20px;
+    border: none;
+    padding: 10px 50px 10px 15px;
+    font-size: 15px;
+    box-shadow: rgb(255 255 255 / 60%) 0px 4px 12px;
+    transition: 0.3s all;
+    outline: none;
+}
+.table__header input:hover{
+    box-shadow: rgb(220 220 220 / 80%) 0px 4px 12px;
+}
+.table__header h2{
+    color: rgb(75,99,110);
+}
+.table__header i{
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    font-size: 19px;
+}
+.table__header__search{
+    position: relative;
+}
+.table__main{
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.table__main tbody tr:hover{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.table__main table{
+    background-color: white;
+    margin: auto;
+    border-spacing: 0;
+    border-radius: 7px;
+}
+
+.table__main table th{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 20px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.table__main table th:hover{
+    background-color: rgba(75, 99, 110, 0.4);
+}
+.table__main table tbody td{
+    padding: 15px 45px;
+    text-align: center;
+}
+
+
